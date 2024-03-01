@@ -6,9 +6,14 @@ var myAge = 23 ;
 console.log(myAge);
 
 //Questions 
-// var my_firstName = "Rekha"; =>valid
-// var _myLastName$ = "Rama"; =>valid
-// var 123myAge = 25;=>invalid
-// var $cityName = "Kathmandu";=> valid
-// var my@Email = "aryalr458@gmail.com"; =>invalid
+ var my_firstName = "Rekha";// =>valid
+ console.log(my_firstName);
+ var _myLastName$ = "Rama"; //=>valid
+ console.log( _myLastName$);
+//  var 23myAge1 = 25;//=>invalid
+//  console.log(23myAge1);
+ var $cityName = "Kathmandu";//=> valid
+ console.log($cityName);
+// var my@Email = "aryalr458@gmail.com"; //=>invalid
+// console.log(my@Email);
 

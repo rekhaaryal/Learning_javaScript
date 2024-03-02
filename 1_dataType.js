@@ -78,3 +78,15 @@ console.log(parseInt("3.22"));//3(decimal part is truncated)
 console.log(parseInt("$22"));
 console.log(parseInt("-322"));
 console.log(parseInt("xyz"));
+//? NaN is stand for "Not a Number" and is returned when a mathematical operation doesn't yield a valid number.
+console.log(isNaN("rekha")); 
+console.log(isNaN("111")); 
+//! NaN===NaN , why is it false?
+if(NaN==NaN)
+{
+    console.log("both are equal");
+}
+else 
+{
+    console.log("not equal");
+}

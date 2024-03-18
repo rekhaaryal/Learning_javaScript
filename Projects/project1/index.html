@@ -7,7 +7,12 @@
     <style>
         body{
         background-color:#f1ecec;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
         }
         
         .button{
@@ -15,6 +20,7 @@
             padding: 15px 30px;
             margin: 5px;
             border-radius: 15px;
+            border : 2px solid rgb(6, 5, 5);
         }
         #red{
             background-color: red;
@@ -33,10 +39,10 @@
 </head>
 <body>
     <h1>Color Scheme Switcher</h1>
-    <span class="button" id="red">Red</span>
-    <span class="button" id="blue">Blue</span>
-    <span class="button" id="yellow">Yellow</span>
-    <span class="button" id="green">Green</span>
+    <span class="button" id="red"></span>
+    <span class="button" id="blue"></span>
+    <span class="button" id="yellow"></span>
+    <span class="button" id="green"></span>
     <h2>Try clicking on one of the color above </h2>
     <script src="colorChanger.js"></script>
 </body>

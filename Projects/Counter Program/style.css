@@ -1,0 +1,42 @@
+#counterLabel {
+    display: block;
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#buttonContainer {
+    text-align: center;
+    
+   
+}
+.buttons{
+    font-size: 2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    color: rgb(69, 66, 72);
+    padding: 10px;
+   
+}
+.buttons:hover{
+    background-color: blueviolet;
+}
+#buttonDecrease{
+    background-color: red;
+    
+
+}
+#buttonReset{
+    background-color: rgb(215, 233, 10);
+   
+
+}
+#buttonIncrease{
+    background-color: rgb(7, 197, 77);
+   
+}
+
+
+
+

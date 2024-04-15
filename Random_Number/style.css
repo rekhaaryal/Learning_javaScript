@@ -1,0 +1,16 @@
+body{
+    font-size: 2em;
+    text-align: center;
+}
+#btn{
+    font-family: Verdana;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 20px;
+    padding: 10px;
+}
+#myLabel{
+    font-size: 2em;
+    color: rgb(148, 93, 21);
+
+}
